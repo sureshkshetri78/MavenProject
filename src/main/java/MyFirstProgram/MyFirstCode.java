@@ -22,6 +22,8 @@ public class MyFirstCode {
 		}
         driver.findElement(By.name("btnK")).click();
         driver.findElement(By.xpath("//*[@id=\"rso\"]/div[1]/div/div/div/div[1]/a/h3")).click();
+        driver.findElement(By.xpath("//*[@id=\"menu_download\"]/a")).click();
+        
 	}
 
 }
